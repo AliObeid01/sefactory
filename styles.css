@@ -2,17 +2,17 @@
 
 body { 
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .header {
   overflow: hidden;
   padding: 20px 10px;
   background-image: url("images/IMG_9780.jpg");
-  height: 700px;
+  height:700px;
   background-size: cover;
+  
 }
-
 
 .header a {
 
@@ -30,6 +30,7 @@ body {
 }
 
 .header a.logo {
+ 
   font-size: 25px;
   font-weight: bold;
 }
@@ -42,6 +43,7 @@ body {
 
 .header-right {
   float: right;
+  white-space: pre;
 }
 
 div{
@@ -49,6 +51,7 @@ div{
 padding: 10px;
 
 }
+
 
 .dropbtn {
   font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -61,10 +64,7 @@ padding: 10px;
   border: none;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+
 
 .dropdown-content {
   display: none;
@@ -86,8 +86,6 @@ padding: 10px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
-
 
 @media screen and (max-width: 500px) {
   .header a {
